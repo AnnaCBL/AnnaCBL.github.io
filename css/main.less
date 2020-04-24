@@ -252,7 +252,7 @@ menu {
 
 
 .t-sm{
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
 }
 
@@ -362,4 +362,13 @@ menu {
 .footer{
   padding: 32px 0;
   background-color: @text-black;
+  .h-md {.text-bold;font-size: 24px;line-height: 26px;}
+  .t-sm{font-size: 14px;line-height: 16px;} 
+  .t-md{font-size: 16px;line-height: 22px;} 
+
+  @media (min-width:@breakpoint-sm) {
+  .h-md {.text-bold;  font-size: 32px;line-height: 26px;}
+  .t-md{  font-size: 18px;line-height: 26px;} 
+  .t-sm{  font-size: 16px;line-height: 20px;} 
+  } 
 }
