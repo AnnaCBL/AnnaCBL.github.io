@@ -3057,7 +3057,7 @@ body::-moz-scrollbar-track {
   color: #000000;
 }
 .text-white {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .text-label {
   color: #808080;
