@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AMarkets FX</title>
+    <link href="css/main-min.css" rel="stylesheet">
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <header class="container-fixed">
+        <div class="header-container d-flex justify-content-between align-items-center">
+            <div class="logo-container d-flex align-items-center">
+                <img class="logo-container__img" src="img/logo.svg" alt="AMarkets FX">
+                <span class="logo-container__text flex-shrink-0 text-regular">AMarkets - ваш онлайн-брокер</span>
+            </div>
+
+            <div class="d-flex flex-grow justify-content-end">
+                <input type="radio" id="menu-open" name="menu" class="menu-open">
+                <input type="radio" id="menu-close" name="menu" class="menu-close">
+                <label for="menu-open" class="icon-mobile-menu  d-md-none">
+                	<svg width="15" height="3" viewBox="0 0 15 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<circle cx="1.5" cy="1.5" r="1.5" fill="#4A4A4A"/>
+										<circle cx="7.5" cy="1.5" r="1.5" fill="#4A4A4A"/>
+										<circle cx="13.5" cy="1.5" r="1.5" fill="#4A4A4A"/>
+									</svg>
+                </label>
+
+                <div class="menu-container flex-md-row align-items-center justify-content-center">
+                    <label for="menu-close" class="icon-close d-md-none">
+											<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M8 6.384L1.616 0L0 1.616L6.38286 8L0 14.384L1.616 16L8 9.616L14.384 16L15.9989 14.384L9.616 8L15.9989 1.616L14.384 0L8 6.384Z" fill="#808080"/>
+											</svg>
+                    </label>
+                    <nav class="navigation d-flex flex-grow flex-column flex-md-row justify-md-content-end">
+                        <a href="#" target="blank" class="menu-item text-regular" onclick="jQuery('#menu-close').prop('checked', true);">Инвестиции в акции</a>
+                        <a href="#" target="blank" class="menu-item text-regular" onclick="jQuery('#menu-close').prop('checked', true);">Условия торговли</a>
+                        <a href="#" target="blank" class="menu-item text-regular" onclick="jQuery('#menu-close').prop('checked', true);">Обмен валюты</a>
+                        <a href="#" target="blank" class="menu-item text-regular" onclick="jQuery('#menu-close').prop('checked', true);">Акции компании</a>
+                    </nav>
+                    <a href="#" class="btn btn--header d-flex align-items-center justify-content-center">Демо-доступ</a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <main class="container-fixed">
+        <div class="main-container position-relative d-flex align-items-center justify-content-center justify-md-content-between">
+        	<div class="position-relative z-1">
+            <h1 class="h-xl text-black main-container__header slide-down adr-6">Зарабатывайте на финансовых рынках с современным  и надежным онлайн-брокером</h1>
+            <a href="#" target="blank" class="btn btn--main text-center slide-up adr-6">
+            	<div class="t-md text-uppercase text-bold">Получить демо-доступ</div>
+            	<div class="t-sm">14 дней, $10 000</div>            	
+            </a>
+            <p class="main-container__text t-lg slide-up adr-4">или откройте <a class="link" href="#" target="blank">реальный торговый счет</a></p>
+           </div>
+            <img class="main-container__img z-0 slide-up adr-6" src="img/main-img.png" alt="A Markets FX">
+        </div>
+        <div class="rewards d-flex flex-wrap justify-content-around justify-sm-content-center justify-lg-content-between c-black t-xxs">
+        	<div class="rewards__item d-flex align-items-center position-relative text-center slide-up adr-3 adl-1">Самый бысторазвивающийся брокер  на Ближнем Востоке</div>
+        	<div class="rewards__item d-flex align-items-center position-relative text-center slide-up adr-3 adl-2">Динамичное развитие IAFT Awards 2017</div>
+        	<div class="rewards__item d-flex align-items-center position-relative text-center slide-up adr-3 adl-3">Лучшие партнерские программы финансовых рынков RACE Awards 2016</div>
+        	<div class="rewards__item d-flex align-items-center position-relative text-center slide-up adr-3 adl-4">Лучший CFD-брокер на рынке партнерских программ  RACE Awards 2015</div>
+        	<div class="rewards__item d-flex align-items-center position-relative text-center slide-up adr-3 adl-5">Самый высокий процент успешных клиентов IAFT Awards 2014</div>
+        	<div class="rewards__item d-flex align-items-center position-relative text-center slide-up adr-3 adl-6">Самое быстрое исполнение ордеров IAFT Awards 2014</div>
+        	
+        </div>
+    </main>
+
+</body>
+
+</html>
